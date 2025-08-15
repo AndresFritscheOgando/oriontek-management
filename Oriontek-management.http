@@ -1,0 +1,6 @@
+@Oriontek_management_HostAddress = http://localhost:5068
+
+GET {{Oriontek_management_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
