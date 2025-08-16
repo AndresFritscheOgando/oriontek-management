@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/andres-user/Workflow/dotnet/Oriontek-management/Oriontek-management.csproj": {}
+    "/home/andres-user/Workflow/dotnet/oriontek/Oriontek-management/Oriontek-management.csproj": {}
   },
   "projects": {
-    "/home/andres-user/Workflow/dotnet/Oriontek-management/Oriontek-management.csproj": {
+    "/home/andres-user/Workflow/dotnet/oriontek/Oriontek-management/Oriontek-management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/andres-user/Workflow/dotnet/Oriontek-management/Oriontek-management.csproj",
+        "projectUniqueName": "/home/andres-user/Workflow/dotnet/oriontek/Oriontek-management/Oriontek-management.csproj",
         "projectName": "Oriontek-management",
-        "projectPath": "/home/andres-user/Workflow/dotnet/Oriontek-management/Oriontek-management.csproj",
+        "projectPath": "/home/andres-user/Workflow/dotnet/oriontek/Oriontek-management/Oriontek-management.csproj",
         "packagesPath": "/home/andres-user/.nuget/packages/",
-        "outputPath": "/home/andres-user/Workflow/dotnet/Oriontek-management/obj/",
+        "outputPath": "/home/andres-user/Workflow/dotnet/oriontek/Oriontek-management/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/andres-user/.nuget/NuGet/NuGet.Config"
