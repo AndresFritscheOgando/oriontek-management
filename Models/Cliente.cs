@@ -1,25 +1,19 @@
-
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Oriontek_management.Models;
 
+public partial class Cliente
+{
+    public int Id { get; set; }
 
-    public class Cliente
-    {
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+    public string Nombre { get; set; } = null!;
 
-        [Required]
-        [MaxLength(100)]
-        public string Nombre { get; set; } = string.Empty;
+    public string Email { get; set; } = null!;
 
-        [Required]
-        [EmailAddress]
-        [MaxLength(100)]
-        public string Email { get; set; } = string.Empty;
+    public string? Telefono { get; set; }
 
-        public ICollection<Direccion> Direcciones { get; set; } = new List<Direccion>();
-    }
+    public string? Empresa { get; set; }
+
+    public virtual ICollection<Direccion> Direcciones { get; set; } = new List<Direccion>();
+}

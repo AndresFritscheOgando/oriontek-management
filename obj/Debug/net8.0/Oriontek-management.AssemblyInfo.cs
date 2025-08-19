@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Oriontek-management")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80408f0da2872451a984e54a01647e6a6e1b4ab2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d0de1a63935245b018570edd8d54c1ca8191cd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Oriontek-management")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Oriontek-management")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
