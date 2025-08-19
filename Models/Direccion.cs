@@ -1,32 +1,19 @@
-
-using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Oriontek_management.Models;
 
-
-public class Direccion
+public partial class Direccion
 {
-    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
 
-    [Required]
-    [MaxLength(200)]
-    public string Calle { get; set; } = string.Empty;
+    public string Calle { get; set; } = null!;
 
-    [Required]
-    [MaxLength(100)]
-    public string Ciudad { get; set; } = string.Empty;
+    public string Ciudad { get; set; } = null!;
 
-    [Required]
-    [MaxLength(100)]
-    public string Pais { get; set; } = string.Empty;
+    public string Pais { get; set; } = null!;
 
-    // Relacion con cliente
-    [ForeignKey("Cliente")]
     public int ClienteId { get; set; }
 
-    public Cliente? Cliente { get; set; }
+    public virtual Cliente Cliente { get; set; } = null!;
 }
-
